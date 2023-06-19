@@ -2,6 +2,8 @@
 
 Bash script to track simple tasks. Allows multiple users, and custom tasks. Tracks tasks on 4 time intervals. Daily, Weekly, Monthly, and Bi_Annually.
 
+automatically updates available tasks by calculating the time since the task was previously completed.
+
 I installed it on my kid's desktop for them to track thier chores. It's been a great use case.
 
 # Requirements
