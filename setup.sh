@@ -41,6 +41,8 @@ done
 
 clear
 
+
+## Request user information, and add to user_list
 while [ 1 ]
 do
   option=$(echo -e  "Yes\n" "No" | fzf --prompt "Would you like to add a user?")
@@ -55,6 +57,7 @@ do
 done
 
 
+## Request task information, and add to master task list as well as associated time interval list.
 while [ 1 ]
 do
   option=$(echo -e "Yes\n" "No" | fzf --prompt "Would you like to add a task?")

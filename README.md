@@ -8,7 +8,9 @@ I installed it on my kid's desktop for them to track thier chores. It's been a g
 
 # Requirements
 
-fzf package is required for this script. [apt-get install fzf]
+If operating a debian based system, the requirements will be completed by running the setup script.
+
+fzf package is required.
 
 # Initial setup notes
 
@@ -18,10 +20,10 @@ You will be prompted to input any user(s) and tasks.
 
 You will be prompted to select the time interval for each task as well. 
 
-After the initial execution of the setup script, it can be executed again without root privileges to add users or tasks.
+After the initial execution of the setup script, it can be executed additional times without root privileges to add users or tasks.
 
 # Additional notes
 
-Script still needs some work. When I get some time, I plan on adding additional features. Such as removing tasks and users via the setup script.  
+Script still needs some work. When I get some time, I plan on adding additional features. Such as removing tasks and users via the setup script, input validation to prevent errors, etc.
 
 For now, to remove tasks, access the /opt/task_tracker/files/ directory, and remove the tasks from the master_task_list and associated time interval list. The user_list can also be found in this directory.
